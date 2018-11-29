@@ -1,0 +1,58 @@
+*{
+    position: absolute;
+}
+
+body{
+    background-color: aqua;
+}
+#cabeza{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: #fbd671;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+    left:400%;
+    margin-top: 150%;
+    transform: rotate(40deg);
+}
+
+#ojoDerecho{
+    background-color: black;
+    height: 30px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    left:250%;
+    margin-top:320%; 
+}
+#ojoIzquierdo{
+    background-color: black;
+    height: 30px;
+    width: 15px;
+    border-radius: 50%;
+    position: relative;
+    left:650%;
+    margin-top: -30px;
+}
+#boca{
+    width: 60%;
+    height: 35%;
+    border-radius: 10px 10px 150px 150px;
+    background-color: black;
+    overflow: hidden;
+    position:relative;
+    left:20%;
+    margin-top: 90px;
+}
+#lengua{
+    width: 30%;
+    height: 15%;
+    border-radius: 150px 150px 10px 10px;
+    overflow: hidden;
+    background-color:red;
+    position: relative;
+    left:22%;
+    margin-top: 100px;
+}
